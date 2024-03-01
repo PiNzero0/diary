@@ -10,7 +10,7 @@
         <form method="post">
             {% csrf_token %}
 
-            {{ form.non_field_errors}}
+            {{ form.non_field_errors }}
 
             {% for field in form %}
             <div class="mb-4 col-8">
